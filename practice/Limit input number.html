@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input type="number" maxlength="10" oninput="maxLengthCheck(this)" />
+
+    <script>
+      const maxLengthCheck = (object) => {
+        if (object.value.length > object.maxLength) {
+          object.value = object.value.slice(0, object.maxLength);
+        }
+      };
+    </script>
+  </body>
+</html>
