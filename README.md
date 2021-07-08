@@ -10,7 +10,7 @@
 <img height="30" src="https://img.shields.io/badge/Github-181717?style=for-the-badge&logo=Github&logoColor=white" />
 
 ## ✅ Packages
-- [x] HTML5
+- [x] HTML5 
 - [x] CSS3
 - [x] VSCode
 - [x] GitHub Desktop
