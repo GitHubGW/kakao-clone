@@ -11,7 +11,7 @@
 
 ## ✅ Packages
 - [x] HTML5 
-- [x] CSS3
+- [x] CSS3 
 - [x] VSCode
 - [x] GitHub Desktop
 
