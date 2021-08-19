@@ -15,11 +15,29 @@
         display: flex;
         flex-direction: column;
       }
+
+      /* :focus-within은 자식에게 포커스가 되었을 때 부모의 요소의 스타일을 바꿀 수 있는 가상선택자이다. */
       form:focus-within {
         border: 3px solid black;
       }
       form:hover input {
         background-color: gold;
+      }
+      form input::placeholder {
+        color: yellowgreen;
+      }
+
+      /* ::selection은 드래그할 때 스타일을 변경할 수 있는 가상선택자이다. */
+      p::selection {
+        background-color: crimson;
+        color: orange;
+      }
+      p::first-letter {
+        color: red;
+        font-size: 35px;
+      }
+      p::first-line {
+        background-color: yellowgreen;
       }
     </style>
   </head>
@@ -27,9 +45,16 @@
     <button>Button</button>
 
     <form action="">
-      <input type="text" />
+      <input type="text" placeholder="Name" />
       <input type="text" />
       <input type="text" />
     </form>
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quae atque
+      voluptatibus magni odio amet. Excepturi ut et nobis delectus? Ratione
+      repudiandae inventore itaque totam consectetur ex possimus voluptatibus
+      similique?
+    </p>
   </body>
 </html>
