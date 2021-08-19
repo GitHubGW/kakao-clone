@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* CSS에 커스텀 프로퍼티(변수)만들기  */
+      /* 모든 document에 뿌리가 되는 :root라는 엘리먼트에게 스타일을 주면 모든 document의 기본 스타일을 지정할 수 있다.  */
+      /* 공통적으로 쓸 스타일을 여기서 만들고 아래에서 var(변수명)을 통해 해당 스타일을 가져와서 쓸 수 있다. */
+      /* 변수명은 --변수명 형태로 쓰면 된다.  */
+      :root {
+        --main-color: gold;
+        --main-border: 3px solid crimson;
+        --main-background-color: dodgerblue;
+      }
+      p {
+        color: var(--main-color);
+        border: var(--main-border);
+        background-color: var(--main-background-color);
+      }
+      a {
+        color: var(--main-color);
+        border: var(--main-border);
+        background-color: var(--main-background-color);
+      }
+    </style>
+  </head>
+  <body>
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit sapiente
+      laudantium ipsam, laborum omnis ut culpa quos maxime neque veniam
+      provident? A molestias quia cupiditate, et dolorum voluptas exercitationem
+      illum.
+    </p>
+
+    <a href="#">Website</a>
+  </body>
+</html>
