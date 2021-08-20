@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* Animation Sample Site */
+      /* https://animista.net/ */
+      img {
+        width: 50px;
+        animation: imageAni 5s ease-in-out infinite;
+      }
+
+      @keyframes imageAni {
+        0% {
+          transform: rotateY(0);
+        }
+        50% {
+          transform: rotateY(360deg) translateY(100px);
+        }
+        100% {
+          transform: rotateY(0);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <img src="images/boy.png" alt="" />
+  </body>
+</html>
