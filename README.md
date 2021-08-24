@@ -13,7 +13,7 @@
 - [x] HTML5 
 - [x] CSS3 
 - [x] VSCode
-- [x] GitHub Desktop
+- [x] GitHub
 
 ## 📖 Theory
 - [x] HTML Tags
@@ -36,4 +36,3 @@
 - [x] Friends
 - [x] Settings
 - [x] Message Animations
-
