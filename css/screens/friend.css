@@ -1,13 +1,15 @@
 #friends-display-link {
   text-align: center;
   display: block;
-  background-color: #f5f5f5;
+  background-color: transparent;
   padding: 15px 0px;
   font-size: 16px;
   margin-top: 20px;
+  color: white;
+  align-items: center;
 }
 #friends-display-link i {
-  color: rgba(0, 0, 0, 0.3);
+  color: white;
 }
 .friends-screen {
   padding: var(--horizontal-space);
@@ -23,6 +25,9 @@
   display: flex;
   justify-content: space-between;
   color: rgba(0, 0, 0, 0.5);
+}
+.friends-screen__channel-header span {
+  color: white;
 }
 
 #splash-screen {

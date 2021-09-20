@@ -1,25 +1,25 @@
 #chat-screen {
-  background-color: #abc1d1;
-  height: 500vh;
+  background-color: transparent;
+  height: 100vh;
 }
 #chat-screen .alt-header,
 #chat-screen .status-bar {
   top: 0;
   position: fixed;
   width: 100%;
-  background-color: #abc1d1;
+  background-color: transparent;
   box-sizing: border-box;
 }
 #chat-screen .status-bar {
   z-index: 2;
 }
 #chat-screen .alt-header {
-  top: 10px;
+  top: 30px;
   z-index: 1;
 }
 
 .main-chat {
-  margin-top: 180px;
+  margin-top: 80px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -60,6 +60,7 @@
   border-radius: 15px;
   border-top-left-radius: 0px;
   margin-right: 5px;
+  color: black;
 }
 .message__time,
 .message__author {
@@ -75,6 +76,7 @@
   border-top-left-radius: 15px;
   margin-right: 0px;
   margin-left: 5px;
+  color: white;
 }
 .message-row--own .message__info {
   flex-direction: row-reverse;
@@ -96,7 +98,7 @@
   width: 10%;
 }
 .reply .reply__column:last-child {
-  width: 90%;
+  width: 92%;
   position: relative;
 }
 .reply i {
@@ -109,6 +111,8 @@
   border-radius: 25px;
   box-sizing: border-box;
   transition: all 0.3s ease-in-out;
+  outline: none;
+  border: none;
 }
 .reply__column:last-child > i,
 .reply__column:last-child button {
@@ -126,6 +130,8 @@
   width: 40px;
   height: 40px;
   border-radius: 50%;
+  color: white;
+  font-size: 20px;
 }
 .reply__column button i {
   opacity: 1;

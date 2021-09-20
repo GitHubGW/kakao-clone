@@ -24,6 +24,7 @@
 .user-component__title {
   font-weight: 600;
   font-size: 18px;
+  color: white;
 }
 .user-component__subtitle {
   margin-top: 10px;
@@ -40,7 +41,7 @@
   font-weight: normal;
 }
 .user-component__column:last-child {
-  color: lightgray;
+  color: white;
 }
 .user-component__time {
   margin-bottom: 10px;

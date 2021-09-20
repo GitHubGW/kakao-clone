@@ -9,8 +9,11 @@
   width: 33%;
 }
 .alt-header__title {
-  font-size: 28px;
+  font-size: 20px;
   font-weight: 600;
+}
+.alt-header__column a {
+  font-size: 10px;
 }
 .alt-header__column:first-child {
   margin-right: auto;
