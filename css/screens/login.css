@@ -24,28 +24,33 @@
   padding: 15px 0px;
   font-size: 18px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-  margin-bottom: 25px;
+  margin-bottom: 10px;
   transition: border-color 0.3s ease-in-out;
+  color: black;
 }
 #login-form input::placeholder {
   color: rgba(0, 0, 0, 0.4);
 }
 #login-form input:focus {
   outline: none;
-  border-color: var(--yellow);
+  border-color: var(--blue);
 }
 #login-form input:not([type="submit"]) {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 16px;
 }
 #login-form input[type="submit"] {
-  background-color: var(--yellow);
+  background-color: var(--blue);
   border-bottom: none;
   cursor: pointer;
-  border-radius: 3px;
+  border-radius: 5px;
+  color: white;
 }
 #login-form a {
   text-align: center;
   text-decoration: none;
   color: inherit;
-  font-size: 13px;
+  font-size: 15px;
 }

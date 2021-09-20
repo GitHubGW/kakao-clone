@@ -5,12 +5,12 @@
   position: fixed;
   top: 0;
   width: 100%;
+  align-items: center;
 }
 .status-bar__column {
-  width: 33%;
+  width: 32%;
 }
 .status-bar__column:first-child span {
-  margin-right: 5px;
 }
 .status-bar__column:nth-child(2) {
   display: flex;
@@ -21,6 +21,10 @@
   justify-content: flex-end;
   align-items: center;
 }
-.status-bar__column .fa-battery-full {
-  margin: 0px 5px;
+.status-bar__column:last-child i {
+  margin-right: 10px;
+  color: white;
+}
+.status-bar__column:last-child span {
+  margin-right: 10px;
 }

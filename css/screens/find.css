@@ -46,7 +46,7 @@
 .open-post__members img {
   width: 15px;
   height: 15px;
-  border-radius: 50%;
+  border-radius: 10px;
   margin-right: 5px;
 }
 .open-post__member-count {
@@ -60,14 +60,16 @@
   background-color: rgba(0, 0, 0, 0.2);
 }
 .open-post__member-status {
-  color: #ffb0e0;
+  color: #ff7675;
+  font-size: 16px;
 }
 .open-post__photo {
   position: relative;
+  margin-bottom: 10px;
 }
 .open-post__photo img {
-  width: 120px;
-  height: 120px;
+  width: 100px;
+  height: 100px;
   border-radius: 10px;
 }
 .open-post__heart-count {
@@ -84,4 +86,23 @@
 }
 .open-post__heart-count span {
   margin-left: 3px;
+}
+.open-post__heart-count:hover i {
+  will-change: transform;
+  animation: heartBeat 1s linear infinite;
+}
+
+@keyframes heartBeat {
+  0% {
+    color: white;
+    transform: none;
+  }
+  50% {
+    color: tomato;
+    transform: scale(1.5);
+  }
+  100% {
+    color: white;
+    transform: none;
+  }
 }

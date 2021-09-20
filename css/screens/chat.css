@@ -18,17 +18,6 @@
   z-index: 1;
 }
 
-@keyframes fadeIn {
-  from {
-    transform: translateY(30px);
-    opacity: 0;
-  }
-  to {
-    transform: none;
-    opacity: 1;
-  }
-}
-
 .main-chat {
   margin-top: 180px;
   display: flex;
@@ -81,7 +70,7 @@
   justify-content: flex-end;
 }
 .message-row--own .message__bubble {
-  background-color: var(--yellow);
+  background-color: var(--blue);
   border-top-right-radius: 0px;
   border-top-left-radius: 15px;
   margin-right: 0px;
@@ -132,7 +121,7 @@
   top: 15px;
 }
 .reply__column button {
-  background-color: var(--yellow);
+  background-color: var(--blue);
   border: none;
   width: 40px;
   height: 40px;
@@ -161,4 +150,19 @@
 }
 .reply:focus-within {
   transform: translateY(80px);
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: none;
+  }
+  1% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
 }

@@ -11,9 +11,23 @@
   font-weight: 500;
 }
 .screen-header__icons span {
-  margin-left: 19px;
+  margin-left: 12px;
+  color: black;
 }
 .screen-header__icons i {
   font-size: 18px;
   cursor: pointer;
+  color: white;
+}
+.screen-header__icons .fa-cog:hover {
+  animation: rotateCog 1s linear infinite;
+}
+
+@keyframes rotateCog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
 }

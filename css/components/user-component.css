@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 25px;
 }
 .user-component__column:first-child {
   display: flex;
@@ -28,6 +29,7 @@
   margin-top: 10px;
   font-size: 13px;
   color: rgba(0, 0, 0, 0.5);
+  color: white;
 }
 .user-component__avatar--sm {
   width: 45px;
@@ -38,7 +40,7 @@
   font-weight: normal;
 }
 .user-component__column:last-child {
-  color: rgba(0, 0, 0, 0.3);
+  color: lightgray;
 }
 .user-component__time {
   margin-bottom: 10px;

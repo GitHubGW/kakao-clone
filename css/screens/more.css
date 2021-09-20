@@ -1,5 +1,8 @@
 .more-screen .icon-row {
   margin-top: 35px;
+  display: flex;
+  justify-content: space-evenly;
+  color: #00b894;
 }
 .more-suggestions {
   margin-top: 50px;
@@ -7,21 +10,25 @@
   padding-top: 40px;
 }
 .more-suggestions__title {
+  font-size: 20px;
   margin-bottom: 30px;
 }
 .more-suggestions__icons {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .more-suggestions__icon {
-  margin-right: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 30px;
+  width: 100px;
 }
 .more-suggestions__icon-image {
   width: 60px;
   height: 60px;
-  background-color: var(--yellow);
+  background-color: var(--blue);
   border-radius: 10px;
   display: flex;
   justify-content: center;
